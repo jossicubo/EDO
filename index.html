@@ -330,8 +330,8 @@ $$
 $$
 Es decir, que para avanzar en el tiempo la función por un paso <span class="arithmatex">\(h\)</span>, el cual suponemos que es lo suficientemente pequeño, basta con utilizar la ecuación
 $$
-\boxed{x(t + h) = x(t) + hf(x,t).}</p>
-<p>$$
+\boxed{x(t + h) = x(t) + hf(x,t).}
+$$
 El error asociado con la aproximación <strong>está ligado a la cantidad de veces que hagamos la aproximación</strong>, es decir, al número de pasos en el tiempo que utilicemos en nuestra solución. Es posible estimarlo haciendo:</p>
 <div class="arithmatex">\[
 \sum\epsilon = \sum_{k=0}^{N-1}\frac{h^2}{2}\left. \frac{d^2x}{dt^2} \right|_{x_k, t_k} = \frac{h}{2}\sum_{k=0}^{N-1}h\left.\frac{df}{dt}\right|_{x_k, t_k}\\
