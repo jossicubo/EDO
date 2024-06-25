@@ -10,7 +10,6 @@ $$
 Es decir, que para avanzar en el tiempo la función por un paso $h$, el cual suponemos que es lo suficientemente pequeño, basta con utilizar la ecuación
 $$
 \boxed{x(t + h) = x(t) + hf(x,t).}
-
 $$
 El error asociado con la aproximación **está ligado a la cantidad de veces que hagamos la aproximación**, es decir, al número de pasos en el tiempo que utilicemos en nuestra solución. Es posible estimarlo haciendo:
 
